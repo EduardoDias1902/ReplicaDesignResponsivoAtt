@@ -1,0 +1,8 @@
+.conteiner{
+    display: block;
+    flex-direction: row;
+}
+.celulares img{
+    width: 10px;
+    
+}
