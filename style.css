@@ -1,8 +1,97 @@
-.conteiner{
-    display: block;
-    flex-direction: row;
+
+.conteiner {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+  }
+  
+  .conteiner div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .conteiner a {
+    text-decoration: none;
+  }
+
+  .conteiner h3 {
+    margin: 0;
+    cursor: pointer;
+  }
+
+.celulares{
+    width: 48%;
+    text-align: center;
 }
-.celulares img{
-    width: 10px;
-    
+
+.logo h3{
+    font-size: 1.5rem;
 }
+
+.frases{
+    text-align: center;
+    font-size: 300%;
+}
+
+.frasesinha{
+    text-align: center;
+}
+.container_menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 50px;
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+.celulares img {
+  max-width: 280px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+}
+
+.faq-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+.faq-item h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.faq-item p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.faq-item .icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 18px;
+  color: #999;
+}
+.logar .logar2{
+   border:2px solid blue;
+   padding:5px;
+
+}
+
