@@ -35,10 +35,12 @@
     text-align: center;
     font-size: 300%;
     margin-top: 0px;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .frasesinha{
     text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
 }
 .container_menu {
   display: flex;
@@ -94,6 +96,7 @@
 .logar .logar2{
    border:2px solid blue;
    padding:5px;
+   font-family: 'Space Grotesk', sans-serif;
 
 }
 
@@ -194,4 +197,6 @@
     color: #d3e3fd;
     text-decoration: underline;
   }
-
+header{
+    font-family: 'Space Grotesk', sans-serif;
+}
