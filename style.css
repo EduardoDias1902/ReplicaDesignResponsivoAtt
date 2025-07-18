@@ -17,7 +17,6 @@ body {
   margin: 0 auto;
 }
 
-/* Cabeçalho */
 .header {
   background: #fff;
   padding: 1.5rem 0;
@@ -33,6 +32,7 @@ body {
 .logo {
   font-weight: 800;
   font-size: 1.5rem;
+  font-family:'Space Grotesk';
 }
 
 .nav-links {
@@ -45,6 +45,7 @@ body {
   text-decoration: none;
   color: #333;
   font-weight: 500;
+  font-family:'Space Grotesk';
 }
 
 .btn {
@@ -54,12 +55,13 @@ body {
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
+  font-family:'Space Grotesk';
 }
 
-/* Hero */
 .hero {
   text-align: center;
   padding: 4rem 1rem;
+  font-family:'Space Grotesk';
 }
 
 .hero h2 {
@@ -81,15 +83,15 @@ body {
 }
 
 .phones img {
-  width: 180px;
+
   border-radius: 20px;
 }
 
-/* Intro */
 .intro {
   background-color: #f9f9f9;
   text-align: center;
   padding: 4rem 1rem;
+  font-family:'Space Grotesk';
 }
 
 .video-placeholder {
@@ -99,7 +101,6 @@ body {
 }
 
 .video-placeholder img {
-  width: 300px;
   border-radius: 20px;
 }
 
@@ -118,10 +119,10 @@ body {
   cursor: pointer;
 }
 
-/* FAQ */
 .faq {
   padding: 4rem 1rem;
   text-align: center;
+  font-family:'Space Grotesk';
 }
 
 .faq-content {
@@ -151,7 +152,6 @@ body {
   font-weight: 500;
 }
 
-/* Footer */
 .footer {
   background-color: #1656ff;
   color: #fff;
@@ -247,7 +247,6 @@ body {
   text-decoration: underline;
 }
 
-/* Responsivo */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
